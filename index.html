@@ -8,7 +8,42 @@
 <link rel="stylesheet" href="https://use.typekit.net/dts2spx.css">
 	</head>
 	<style>
+iframe {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+		}
+		
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+		}
+		
+.column {
+  float: left;
+  padding: 5px;
+  
 }
+
+.column.side {
+  width: 15%;
+}
+
+
+.column.middle {
+  width: 15%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
 </style>
 
 <body>
@@ -24,18 +59,47 @@
   <li><a href="modelkits.html">Model Kits</a></li>
   <li><a href="guides.html">Guide</a></li>
   <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+		
+	<li><form id="search" action="figurines.html">
+	   <input type="search" id="searchbar" placeholder="search">
+	  <label for="searchbar">
+	  <button type="submit">Go</button>
+	  </label>
+	  
+	  
+	  </form></li>
 </ul>
 	</nav>
-	<article class="left"><img src="images/figuretypes.jpg" alt="Many different figure types" title="The many different types of figures you're able to buy." width="480px"></article>
-	<article class="right">
-		<aside style="font-size:20px" title="It's always good to start with some advice!"><b style="color: darkred">The beginner's guide to all things figure collecting! &#128151</b></aside>
-		<section>You'll find everything that you need to know here if you've been looking to get into the hobby that is starting a new collection.</section>
-		<p></p>
- 		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad reiciendis aspernatur voluptas suscipit cupiditate perferendis laborum quam deleniti nobis! Aspernatur nesciunt autem eaque aut doloremque expedita et ipsum temporibus aspernatur voluptas suscipit.</p>
+	<article><img src="images/figuretypes.jpg" alt="Many different figure types" title="The many different types of figures you're able to buy." width="1000px"></article>
+	<article>
+		<aside style="font-size:23px; text-align: center" title="It's always good to start with some advice!"><b style="color: darkblue">The beginner's guide to all things figure collecting! &#128151</b></aside>
+		<section>You'll find everything that you need to know here if you've been looking to get into the hobby that is starting a new collection. Nothing needs to be too daunting when you have advice at your fingertips. You'll be here to learn something new, enforce that knowledge to make your collection better than before!&nbsp; <br><br>
+         Whether you're a complete beginner or experienced just looking for some more tips, there's information here for everyone! &nbsp;</section>
+		<br><br><br>
+		
 	</article>
 	
-	<p style="padding: inherit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus modi neque soluta dicta expedita impedit at ipsa magnam repudiandae mollitia similique, reprehenderit aperiam possimus, facilis consectetur totam culpa fugit quisquam omnis, natus voluptatem laudantium ullam numquam. Quidem iure harum eligendi illo? Non error, molestias praesentium dolores dolore, mollitia ipsa alias ipsam, quam itaque ut assumenda iste tempore quia culpa!</p>
+	<h2 style="text-align: center">The Basics</h2>
+	<iframe width="700" height="415" src="https://www.youtube.com/embed/JFCPqLmJraI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
+	<div class="row">
+  <div class="column side">
+    <h2 style="text-align: center">Action Figures</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  
+  <div class="column middle">
+    <h2 style="text-align: center">Statues</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  <div class="column side">
+    <h2 style="text-align: center">Model Kits</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
 
 	<footer>Copyright 2022 Model Madness&#8482</footer>
 </div>

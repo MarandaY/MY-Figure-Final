@@ -9,28 +9,42 @@
 	
 <body>
 	<div id="container">
-	<header><h1>Model Madness</h1></header>
+	<header><h1><a href="index.html"><img src="images/modellogo.png" id="logo" alt="Model Madness logo."></a></h1></header>
 	<nav>
 	<ul>
   <li><a href="index.html">Home</a></li>
-  <li><a href="guides.html">Guides</a></li>
+		
+  <li><div class="dropdown">
+	  <a href="javascript:void(0)" class="dropbtn">Figures</a>
+	  <div class="dropdown-content">
+      <a href="figurines.html">Action Figures</a>
+	  <a href="statues.html">Statues</a>
+	  <a href="modelkits.html">Model Kits</a>
+	  </div>
+	  </div>
+	</li>
+		
+  <li><div class="dropdown">
+	  <a href="javascript:void(0)" class="dropbtn">Guides</a>
+	  <div class="dropdown-content">
+      <a href="guides.html">Buying Guide</a>
+	  <a href="care guide.html">Care Guide</a>
+	  </div>
+	  </div>
+	</li>
+		
   <li><a href="about.html">About</a></li>
   <li><a href="contact.html">Contact</a></li>
 		
-	<li><form id="search">
-	   <input type="search" id="searchbar" placeholder="search">
-	  <label for="searchbar">
-	  <button type="submit">Go</button>
-	  </label>
-	  
-	  
-	  </form></li>
 </ul>
 	</nav>
-		
-	<article class="left"><img src="images/modellads.png" alt="Model kits are figures you must build yourself." title="Posable DIY figures!" width="575px"></article>
-		
-	<article class="right"><h3>What are Model Kits?</h3> </article>	
+		<div class="opening">
+			<div class="opencolumn">
+	<article class="left"><img src="images/modellads.png" alt="Model kits are figures you must build yourself." title="Posable DIY figures!" class="figureimg"></article>
+			</div>
+			
+			<div class="opencolumn">
+	<article class="right"><h3 class="mainheader">What are Model Kits?</h3> 
 		
 	<br>
 	<p>Model kits are actually pretty similar to action figures, in that most have articulated joints. The main difference is that you actually have to build model kits yourself!
@@ -41,13 +55,28 @@ Think of it like a more complex Lego set. You're given instructions on how to pu
 <br><br>
 The DIY aspect of model kits actually allows for, depending on the size of the kit, a more affordable alternative than action figures of specific characters.</p>
 		
+		</article>	
+		</div>
+			</div>
 		
-	<h3 align="center">How Model Kits Differ</h3>
-		<img src="images/modelmaking.png" width="500">
+	<div class="differ">
+		
+	
+		
+		<div class="inforight">
+		<img src="images/modelmaking.png" width="500" class="infoimg">
+	
+	<ul class="gbutton">
+		<li><a href="guides.html"><p class="guidebutton">Buying Guide</p></a></li>
+		<li><a href="guides.html"><p class="guidebutton">Care Guide</p></a></li>
+	</ul>		
+		</div>
+	<div class="infoleft"> <h3 class="guideheader">How Model Kits Differ</h3>
+	<article>
 	<p>The world of model kits is actually quite a complex one. There is quite a huge variety of kits you can buy, but I'll simply go over the most common ones:
 </p>
 	
-	<ol>
+	<ol class="infolist">
 	<li>Character model kits</li>
 		<br>
 	<li>Gundam/Mech model kits</li>
@@ -66,7 +95,9 @@ The DIY aspect of model kits actually allows for, depending on the size of the k
 		
 	<p>It should also be noted that model kits have two main build types; snap on or self-serving. Snap on kits have pieces that are ready to just snap together as soon as their cut out, while the self-serving kits need to be glued individually.
 </p>
-		
+	</article>	
+		</div>
+		</div> 	
 	<footer>Copyright 2022 Model Madness&#8482</footer>	
 	</div>	
 </body>
